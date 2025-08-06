@@ -1,4 +1,5 @@
 # marketing-campaign-ab-test
+A/B testing analysis on the "Marketing A/B Testing" dataset from Kaggle, with a special focus on addressing non-Gaussian distributions and potential power-law events.
 # Evaluating Campaign Performance Through A/B Testing
  
 ## Objective
