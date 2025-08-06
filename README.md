@@ -10,7 +10,7 @@ The data used in this analysis is sourced from the 'marketing_campaign.csv' file
  
      import kagglehub
 
-     path = kagglehub.dataset_download("rodsaldanha/arketing-campaign")
+     path = kagglehub.dataset_download("amirmotefaker/ab-testing-dataset")
 
      print("Path to dataset files:", path)
 
