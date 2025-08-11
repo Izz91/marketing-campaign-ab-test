@@ -43,7 +43,7 @@ The primary focus of the A/B test is the Conversion Rate. The hypothesis framewo
 
 The A/B Testing Analysis employed multiple statistical approaches:
 1. **Z-test for Proportions**
-   A parametric test that is suitable for comparison of two proportions given sufficient sample size and observed events. We    applied to the *conversion rates*. While the Test group showed a slightly higher conversion rate, the calculated p-value from the one-tailed Z-test is above the predefined significance level (alpha = 0.05). This leads us  to a **failure to reject** the null hypothesis.
+is parametric test that suitable for comparison of two proportions, given sufficient sample size and observed events. We  applied this method to the *conversion rates*. While the Test group showed a slightly higher conversion rate, the calculated p-value from the one-tailed Z-test is above the predefined significance level (alpha = 0.05). Thus this leads us  to a **failure to reject** the null hypothesis.
 
 2. **Mann-Whitney U Test**
    Given the non-normal distribution of *num_impressions*, the non-parametric Mann-Whitney U test is utilized to compare the distributions of impressions between the groups. This test revealed a **statistically significant difference** in the distribution of *num_impressions* (p-value < 0.05). This indicates that the **Test Campaign influenced** the pattern of impression delivery differently from the Control Campaign.
